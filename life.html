@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <style>
+    body {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+header .container {
+    padding: 0; 
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none; 
+  color: inherit;        
+  display: inline-block; 
+}
+
+
+.logo:hover {
+  opacity: 0.85;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 0; 
+    transition: color 0.3s ease; 
+}
+
+header nav a:hover {
+    color: #ff6505; 
+}
+
+
+.hero {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 90vh; 
+    object-fit: cover; 
+    display: block;
+}
+
+    .content {
+    background-color: #f9f9f9;
+    padding: 20px 0 8px;
+}
+
+.content .container {
+    align-items: flex-start;
+    flex-wrap: wrap; 
+}
+
+.text-content {
+    flex: 1; 
+    min-width: 300px; 
+    margin-right: 40px;
+}
+
+.text-content h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 10px;
+    color: #555;
+}
+.page-title {
+    background-color: #f7f7f7; 
+    border-bottom: 1px solid #eee;
+    padding: 20px 0; 
+}
+.page-title .container {
+    display: block; 
+    text-align: center;
+}
+.page-title h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 700;
+}
+.page-title p {
+    font-size: 16px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.feature-list {
+    padding: 60px 0 20px;
+}
+
+.feature-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 50px;
+    margin-bottom: 70px; 
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee; 
+}
+
+
+.feature-item:nth-child(even) {
+    flex-direction: row-reverse; 
+}
+
+.feature-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.feature-visual {
+    flex: 1;
+    min-width: 400px; 
+    max-width: 50%; 
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    height: 300px; 
+}
+
+.feature-visual img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    display: block;
+}
+
+
+.feature-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.feature-text h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+    border-left: 5px solid #ff6505; 
+    padding-left: 10px;
+}
+
+.feature-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #555;
+    margin-bottom: 10px;
+}
+   </style>
+</head>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emperor Penguin - Growth / Size</title>
+    <link rel="stylesheet" href="style.css"> 
+    </head>
+<body>
+    
+    <header>
+        <div class="container">
+            <a class="logo" href="index.html">Emperor penguin</a>
+            <nav>
+                <ul>
+                    <li><a href="Growth.html">Growth/ Size</a></li> 
+                    <li><a href="life.html" style="color: #ff6505;">Life / Breeding</a></li>
+                    <li><a href="lifestyle.html">Habitat / Lifestyle</a></li>
+                    <li><a href="journey.html">Journey / Dive</a></li> 
+                    <li><a href="highlights.html">Cute Moments</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="container" style="display: block; text-align: center;">
+            <h1 style="font-size: 32px; margin-bottom: 5px; font-weight: 700;">
+                황제펭귄의 특별한 특성 및 생존 기술 
+                <span style="font-weight: 300; color: #777;">| Features / Highlights</span>
+            </h1>
+            <p style="font-size: 16px; color: #555; max-width: 900px; margin: 0 auto; line-height: 1.6;">
+                혹독한 남극 환경에서 생존을 가능하게 하는 황제펭귄만의 놀라운 생물학적, 사회적 특성들을 이미지와 함께 살펴보세요.
+            </p>
+        </div>
+    </section>
+
+    <section class="main-content feature-list">
+        <div class="container" style="display: block;">
+
+            <div class="feature-item">
+                <div class="feature-visual">
+                    <img src="허들링.png" alt="서로 모여 체온을 유지하는 펭귄 허들링">
+                </div>
+                <div class="feature-text">
+                    <h2>1. 극한의 추위 속 협동, 허들링 (Huddling)</h2>
+                    <p>
+                        남극의 겨울은 영하 50°C 이하로 떨어집니다. 황제펭귄은 이 추위를 견디기 위해 수천 마리가 밀집된 집단 '허들'을 만듭니다. 
+                        이 허들 안의 온도는 바깥보다 10~20°C 높아집니다.
+                    </p>
+                    <p>
+                        바깥쪽의 펭귄은 일정 시간 간격으로 안쪽으로 이동하고, 안쪽의 펭귄은 다시 바깥쪽으로 순환하는 정교한 시스템을 통해 모든 개체가 균등하게 열을 공유합니다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-visual">
+                    <img src="토보개닝.png" alt="배를 깔고 미끄러지며 이동하는 펭귄">
+                </div>
+                <div class="feature-text">
+                    <h2>2. 미끄러지며 이동하기, 토보개닝 (Tobogganing)</h2>
+                    <p>
+                        황제펭귄은 수 마일의 거리를 이동해야 할 때, 똑바로 걷는 대신 배를 깔고 얼음 위를 미끄러지며 이동합니다. 이 방식을 토보개닝(썰매 타기)이라고 합니다.
+                    </p>
+                    <p>
+                        토보개닝은 걷는 것보다 약 20~30%의 에너지를 절약할 수 있으며, 더 빠르게 이동할 수 있게 해줍니다. 
+                        이는 먹이를 구하러 갈 때 체력을 효율적으로 관리하는 중요한 생존 전략입니다.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature-item">
+                <div class="feature-visual">
+                    <img src="버블젯.png" alt="잠수 시 기포를 방출하는 펭귄">
+                </div>
+                <div class="feature-text">
+                    <h2>3. 마찰력을 이기는 '버블 제트' 잠수</h2>
+                    <p>
+                        물속에서 지상으로 고속 상승할 때, 황제펭귄은 깃털에 갇혀있던 공기를 미세한 기포(버블) 형태로 방출합니다.
+                    </p>
+                    <p>
+                        이 기포들은 깃털과 물 사이의 마찰력을 획기적으로 줄여주어, 잠수 후 **최대 2~3배** 더 빠른 속도로 수면 위로 솟아오르게 합니다. 
+                        이는 천적의 위협을 피하는 동시에 먹이를 잡은 후 빠르게 호흡하기 위한 생체 기술입니다.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container" style="padding: 10px 0;">
+            <div class="text-content">
+                <p style="font-size: 10px; color: #555;">©2025 Yujin Shin. All Rights Reserved.<br>Designed by Yujin Shin / Kaywon University</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   <style>
+    body {
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0; 
+    position: sticky; 
+    top: 0; 
+    z-index: 1000; 
+}
+
+header .container {
+    padding: 0; 
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none; 
+  color: inherit;        
+  display: inline-block; 
+}
+
+.logo:hover {
+  opacity: 0.85;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ff6505;
+}
+
+
+.hero {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 90vh; 
+    object-fit: cover;
+    display: block;
+}
+
+    .content {
+    background-color: #f9f9f9;
+    padding: 20px 0 8px;
+}
+
+.content .container {
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    flex: 1; 
+    min-width: 300px;
+    margin-right: 40px;
+}
+
+.text-content h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    font-size: 10px;
+    color: #555;
+}
+.page-title {
+    background-color: #f7f7f7; 
+    border-bottom: 1px solid #eee;
+    padding: 20px 0; 
+}
+.page-title .container {
+    display: block;
+    text-align: center;
+}
+.page-title h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 700;
+}
+.page-title p {
+    font-size: 16px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.main-content {
+    padding: 40px 0 60px;
+    background-color: #fcfcfc;
+}
+.main-content .container {
+    display: block;
+    max-width: 1000px;
+}
+
+.size-comparison {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-end;
+    gap: 70px;
+    position: relative; 
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.size-comparison::after {
+    content: '';
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 900px;
+    height: 2px;
+    background-color: #ddd; 
+    border-radius: 1px;
+    z-index: 1; 
+}
+
+.stage-item {
+    text-align: center;
+    position: relative;
+    z-index: 10; 
+    flex-shrink: 0;
+    min-width: 100px;
+    padding-bottom: 70px;
+}
+
+.stage-item img {
+    display: block;
+    margin: 0 auto 10px;
+    object-fit: contain;
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+.stage-item.human-item img {
+    background-color: transparent; 
+    padding: 0;
+}
+
+.stage-item h3 {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 700; 
+    color: #333;
+}
+
+.stage-item p {
+    font-size: 13px; 
+    color: #666; 
+    line-height: 1.4;
+    margin: 2px 0; 
+}
+.stage-item p strong {
+    color: #ff6505;
+    font-weight: 700;
+}
+
+.stage-item.egg-item img {
+    margin-bottom: 20px; 
+    padding: 0;
+}
+
+
+
+.audio-section-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.audio-player-group {
+    display: inline-block; 
+    
+}
+
+.audio-label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+    text-align: center; 
+    font-weight: bold;
+}
+   </style>
+</head>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emperor Penguin - Growth / Size</title>
+    <link rel="stylesheet" href="style.css"> 
+    </head>
+<body>
+
+    <header>
+        <div class="container">
+            <a class="logo" href="index.html">Emperor penguin</a>
+            <nav>
+                <ul>
+                    <li><a href="Growth.html" style="color: #ff6505;">Growth/ Size</a></li> 
+                    <li><a href="life.html">Life / Breeding</a></li>
+                    <li><a href="lifestyle.html">Habitat / Lifestyle</a></li>
+                    <li><a href="journey.html">Journey / Dive</a></li>
+                    <li><a href="highlights.html">Cute Moments</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-title">
+        <div class="container" style="display: block; text-align: center;">
+            <h1 style="font-size: 32px; margin-bottom: 5px; font-weight: 700;">
+                황제펭귄의 크기와 성장 시기 
+                <span style="font-weight: 300; color: #777;">| Growth / Size</span>
+            </h1>
+            <p style="font-size: 16px; color: #555; max-width: 900px; margin: 0 auto; line-height: 1.6;">
+                황제펭귄은 현존하는 펭귄 종 중 가장 크며, 남극의 혹독한 환경에 적응하기 위해 거대한 몸집을 자랑합니다.<br>
+                아래에서 인간과 비교하여 황제펭귄의 크기와 성장 과정을 확인해보세요.
+            </p>
+        </div>
+    </section>s
+
+    <section class="main-content">
+        <div class="container">
+            
+            <div class="size-comparison">
+                
+                <div class="stage-item human-item"> 
+                    <img src="인간실루엣.png" alt="인간 성인 실루엣" style="height: 350px;">
+                    <h3>인간 성인</h3>
+                    <p>평균 신장 <strong>175cm</strong></p>
+                    <p style="font-size: 12px; color: #999;">(펭귄 정수리를 볼 수 있음)</p>
+                </div>
+
+                <div class="stage-item egg-item">
+                    <img src="펭알.png" alt="황제펭귄 알" style="height: 30px;"> 
+                    <h3>알 (Egg)</h3>
+                    <p>높이 약 <strong>12cm</strong></p>
+                    <p style="font-size: 12px; color: #999;">(약 65일 후 부화)</p>
+                </div>
+                
+                <div class="stage-item">
+                    <img src="아펭.png" alt="황제펭귄 새끼" style="height: 140px;">
+                    <h3>새끼 (Chick)</h3>
+                    <p>약 <strong>70cm</strong></p>
+                    <p style="font-size: 12px; color: #999;">(5-6개월 양육 후 독립)</p>
+                </div>
+
+                <div class="stage-item">
+                    <img src="성체펭.png" alt="황제펭귄 성체" style="height: 240px;">
+                    <h3>성체 (Adult)</h3>
+                    <p>높이 약 <strong>120cm</strong> 내외</p>
+                    <p style="font-size: 12px; color: #999;">(체중 약 20~45kg)</p>
+                    
+                </div>
+                
+            </div>
+            <div class="audio-section-container">
+               <div class="audio-player-group">
+             <p class="audio-label">황제펭귄 울음소리를 들어봅시다</p>
+        
+              <audio controls class="penguin-audio">
+            <source src="펭귄울음소리.mp3" type="audio/mpeg">
+
+        </audio>
+    </div>
+</div>
+            
+        </div>
+    </section>
+
+    <section class="content">
+        </section>
+
+    <section class="content">
+        <div class="container">
+            <div class="text-content">
+                <h5>Emperor penguin</h5>
+                <p>©2025 Yujin Shin. All Rights Reserved.<br>Designed by Yujin Shin / Kaywon University</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
